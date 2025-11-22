@@ -1,4 +1,5 @@
 # HDT Graph Discovery Demo
+[![Deploy to GitHub Pages](https://github.com/gravio-la/hdt-graph-discovery-demo/actions/workflows/deploy.yml/badge.svg)](https://github.com/gravio-la/hdt-graph-discovery-demo/actions/workflows/deploy.yml)
 
 A web application for browsing and exploring HDT (Header Dictionary Triples) RDF graphs in the browser using WASM64.
 

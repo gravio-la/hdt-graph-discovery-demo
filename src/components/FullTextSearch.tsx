@@ -19,7 +19,6 @@ import {
 import FlexSearch from 'flexsearch';
 
 import type { HdtDataset } from '@graviola/hdt-rdfjs-dataset';
-import type { HDTDatasetCore } from '../hdt-dataset';
 import factory from '@rdfjs/data-model';
 import SearchIcon from '@mui/icons-material/Search';
 import BuildIcon from '@mui/icons-material/Build';
@@ -27,7 +26,7 @@ import { useBookmark } from '../hooks/useBookmark';
 import { BookmarkChip } from './BookmarkChip';
 
 interface FullTextSearchProps {
-  dataset: HdtDataset | HDTDatasetCore | null;
+  dataset: HdtDataset | null;
 }
 
 interface SearchResult {

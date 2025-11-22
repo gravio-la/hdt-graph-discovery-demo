@@ -10,13 +10,12 @@ import {
 import { RichTreeView } from '@mui/x-tree-view/RichTreeView';
 import type { TreeViewBaseItem } from '@mui/x-tree-view/models';
 import type { HdtDataset } from '@graviola/hdt-rdfjs-dataset';
-import type { HDTDatasetCore } from '../hdt-dataset';
 import factory from '@rdfjs/data-model';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 interface SpecializedGraphBrowserProps {
-  dataset: HdtDataset | HDTDatasetCore | null;
+  dataset: HdtDataset | null;
   startNodeIri: string;
   predicateIri: string;
   direction: 'in' | 'out';

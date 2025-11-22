@@ -13,13 +13,12 @@ import {
 import { RichTreeView } from '@mui/x-tree-view/RichTreeView';
 import type { TreeViewBaseItem } from '@mui/x-tree-view/models';
 import type { HdtDataset } from '@graviola/hdt-rdfjs-dataset';
-import type { HDTDatasetCore } from '../hdt-dataset';
 import factory from '@rdfjs/data-model';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import { useBookmarkStore } from '../stores/bookmarkStore';
 
 interface GraphBrowserProps {
-  dataset: HdtDataset | HDTDatasetCore | null;
+  dataset: HdtDataset | null;
   onSelectPredicate?: (startIri: string, predicateIri: string, direction: 'in' | 'out') => void;
 }
 
