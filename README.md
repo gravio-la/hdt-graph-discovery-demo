@@ -10,7 +10,6 @@ A web application for browsing and exploring HDT (Header Dictionary Triples) RDF
 - **Browse the graph** starting from any URI with interactive navigation
 - **Search full-text** across all subjects, predicates, and objects
 - **Bookmark URIs** for quick access during exploration
-- **View specialized ontologies** with custom visualizations (exhibitions, events)
 
 ## Browser Requirements
 
